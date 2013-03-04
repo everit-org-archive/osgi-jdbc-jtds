@@ -34,7 +34,7 @@
 
 	<groupId>org.everit.osgi.jdbc</groupId>
 	<artifactId>org.everit.osgi.jdbc.jtds</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT-akiss</version>
 
 	<packaging>bundle</packaging>
 	<name>JTDS OSGi Extension</name>
@@ -89,8 +89,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>net.sourceforge.jtds</groupId>
-			<artifactId>com.springsource.net.sourceforge.jtds</artifactId>
-			<version>1.2.2</version>
+			<artifactId>jtds</artifactId>
+			<version>1.2.5</version>
+			<classifier>everit</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.osgi</groupId>
