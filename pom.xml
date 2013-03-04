@@ -34,7 +34,7 @@
 
 	<groupId>org.everit.osgi.jdbc</groupId>
 	<artifactId>org.everit.osgi.jdbc.jtds</artifactId>
-	<version>1.0.1-SNAPSHOT-akiss</version>
+	<version>1.1.0</version>
 
 	<packaging>bundle</packaging>
 	<name>JTDS OSGi Extension</name>
